@@ -238,3 +238,42 @@ section#hero {
   --color-accent: #8a2be2;
   padding: 30vh 30vw ;
 }
+
+
+/* about section */
+
+.about_content {
+  padding: var(--space-xl) 0;
+  transform: skewX(-8deg);
+}
+
+@media (max-width: 468px) {
+  .about_content {
+    transform: skewX(0deg);
+  }
+}
+.about_figure {
+  padding: var(--space-xl) 0;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  display: inline-block;
+  padding: 8px;;
+}
+
+
+  .about_img {
+    width: 900px;
+    height: 200px;
+    object-fit: cover;
+     margin-bottom: 10px;
+  }
+
+.about_caption {
+  padding: var(--space-3xl) 0;
+ 
+}
+
+section#about {
+  background-color: #ffffff;
+  color: #333;
+  --colroe-accent: #ffd700;
+}
